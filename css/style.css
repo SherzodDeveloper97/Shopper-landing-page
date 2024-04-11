@@ -45,6 +45,7 @@ nav {
 }
 .search__form{
   background-color: #fff;
+  margin-right: 37px;
 }
 .search__form{
   width: 320px;
@@ -53,7 +54,7 @@ nav {
 .search__input{
   width: 100%;
   border: none;
-  padding: 26px 30px;
+  padding: 24px 72px 24px 30px;
   box-shadow: 0 0 1.5px #ccc;
   outline: none;
   border-radius:10px;
@@ -78,6 +79,9 @@ nav {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   cursor: pointer;
+}
+#item__add{
+  margin-right: 22px;
 }
 .nav__btn {
   display: flex;
@@ -107,6 +111,6 @@ nav {
 .nav__btn svg{
   margin-right: 19px;
 }
-.nav__btn:hover .nav__btn svg path{
+.nav__btn:hover svg path{
   fill: #fff;
 }
