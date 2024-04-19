@@ -1,3 +1,8 @@
+/* #custom styles: */
+:root{
+  --main-color: #10b981;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -113,4 +118,19 @@ nav {
 }
 .nav__btn:hover svg path{
   fill: #fff;
+}
+.menu{
+  background-color: var(--main-color);
+}
+.menu__list{
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+.menu__list_item:not(:last-child){
+  margin-right: 77px;
+}
+.menu__list_item a{
+  color: white;
+  font-weight: 600;
 }
